@@ -3161,6 +3161,11 @@ h3+h1 {
   .mr-sm-170 {
     margin-right: 170px !important;
   }
+
+  .landing-text h1 {
+    font-size: 40px;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -3189,11 +3194,25 @@ h3+h1 {
   .ml-sm-170 {
     margin-left: 170px !important;
   }
+
+  .landing-text {
+    width: 70%;
+
+  }
+
+  .landing-text h1 {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 768px) {
   .ml-md-170 {
     margin-left: 170px !important;
+  }
+
+  .landing-text {
+    width: 70%;
+
   }
 
   .nt-signup {
@@ -3522,7 +3541,7 @@ h4 {
 
 .landing-text {
   background: rgba(255, 255, 255, 0.5);
-  width: 50%;
+  width: 70%;
 }
 
 .landing-text p {
@@ -3737,6 +3756,10 @@ a:hover {
 
 .btn-main:active {
   background-color: #b5042e;
+}
+
+.landing-text h1 {
+  font-size: 20px;
 }
 
 .btn-main-alt {
@@ -4197,12 +4220,13 @@ strong {
 }
 
 .landing-text button {
-  width: 250px;
+  width: 50%;
   height: 50px;
   background-color: #fff;
   color: #90734B;
   border: none;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 
