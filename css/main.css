@@ -3746,7 +3746,7 @@ a:hover {
 .landing-text button:hover {
   background-color: #ce0434;
   color: white;
-  font-size: 14px;
+
 }
 
 .btn-main:hover,
@@ -4225,12 +4225,13 @@ strong {
 
 .landing-text button {
   width: 50%;
-  height: 50px;
+  height: 70px;
   background-color: #fff;
   color: #90734B;
   border: none;
   margin-left: 20px;
   margin-bottom: 10px;
+
 }
 
 
